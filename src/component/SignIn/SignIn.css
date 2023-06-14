@@ -1,0 +1,13 @@
+.SignIn__title {
+    text-align: center;
+    width: 900px;
+    margin: 40px auto;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.SignIn__text {
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,77 @@
+.AddProduct__options {
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.AddProduct__btn {
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.NoAvailible {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+.OwnOFY {
+    width: 900px;    
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.OwnOFY__user{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.OwnOFY__user-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.OwnOFY__user-input{
+    outline: none;
+    padding: 6px 12px;
+    border: 2px solid #ccc;
+}
+
+.OwnOFY__sex-item{
+    display: flex;
+    column-gap: 20px;
+}
+
+.OwnOFY__sex {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.OwnOFY__user-submit {
+    width: 100%;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    
+
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.OwnOFY__user-submit:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+
+

@@ -1,0 +1,44 @@
+.Sliders__containers{
+    /* width: 1300px; */
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Slider__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.Slider__img:hover {
+    transform: scale(1.2);
+    transition: all .3s ease;
+}
+
+.Home__newTrend {
+    margin-bottom: 20px;
+}
+
+.Home__newTrend-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    border-top: 2px solid rgba(0,0,0,.1);
+    border-bottom: 2px solid rgba(0,0,0,.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.Home__newTrend-poster {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Home__newTrend-posterItem {
+    width: 30%;
+}
+
+

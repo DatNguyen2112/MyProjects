@@ -1,0 +1,23 @@
+.AboutUs__bg {
+    background-image: url(https://exacdn.acfc.com.vn/static/version1673324248/frontend/Acfc/default/vi_VN/images/about/banner-about2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+}
+
+.AboutUs__container {
+    text-align: center;
+    line-height: 2.1;
+}
+
+.AboutUs__container-body {
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 100px;
+}
+
+.AboutUs__container-title {
+    font-size: 30px;
+}

@@ -1,0 +1,60 @@
+.SignUp__title {
+    text-align: center;
+    width: 900px;
+    margin: 40px auto;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.SignUp__text {
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.SignIn__form {
+    width: 400px;
+    margin: 10px auto 20px;
+}
+
+.Forms {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    padding: 20px;
+}
+
+.SignIn__email,
+.SignIn__password{
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid #ccc
+}
+
+.SignIn__email-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    
+}
+
+.SignIn__logo {
+    background-color: #eee;
+    padding: 6px 12px;
+}
+
+.SignIn__submit-btns {
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    text-transform: uppercase;
+    height: 34px;
+}
+
+.SignIn__signUpLink {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,195 @@
+.noBorders {
+    border: inherit;
+}
+
+.disapear {
+    display: none;
+}
+
+.appear {
+    display: block;
+}
+
+.Border {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ProductDetail__container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.ProductDetail__container-image {
+    width: 430px;
+    height: 550px;
+}
+
+.image__photo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ProductDetail__details {
+    padding: 15px;
+}
+
+.ProductDetail__categorys {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.ProductDetail__categoryFashion,
+.ProductDetail__checked,
+.ProductDetail__category {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #F5F5F5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-caret-right {
+    color: #D6D6D6;
+}
+
+.ProductDetail__description,
+.ProductDetail__poster,
+.ProductDetail__price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ProductDetail__price {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.ProductDetail__size {
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.fa-star {
+    color: #ffba00;
+}
+
+.ProductDetail__rating{
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.ProductDetail__size-text {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+.ProductDetail__size-title {
+    font-weight: bold;
+}
+
+.ProductDetail__submit {
+    margin-top: 20px;
+}
+
+button.ProductDetail__btn {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    background-color: #ff261d;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.fa-bag-shopping {
+    margin-right: 10px;
+}
+
+.Product__review-showForm {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.Product__review-submitBtn {
+    background-color: #53a1cc;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Product__review-form {
+    width: 900px;
+    margin: 0 auto;
+    line-height: 2.5;
+    transition: all .3s ease-in-out;
+}
+
+input.Product-review-nameInput {
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.flexs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea.textareaContent {
+    width: 100%;
+    padding: 8px 12px;
+}
+
+button.Product__review-itemSubmit {
+    width: 100%;
+    border: none;
+    padding: 8px 12px;
+    background-color: #53a1cc;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.opacity0{
+    opacity: 0;
+}
+
+.opacity1{
+    opacity: 1;
+}
+
+.ProductDetail__review {
+    margin-bottom: 20px;
+}
+
+.flexs_detail {
+    display: flex;
+}
+
+.flexs_items {
+    margin-left: 20px;
+    margin-right: 20px;
+}
